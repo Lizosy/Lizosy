@@ -1,5 +1,5 @@
-### Hi there 👋
-# 💫 About Me:
+Hi there 👋
+ 💫 About Me:
 Hi, I'm Chatawee Suriwong. But you can call me Rachel.<br>I have just started coding for a while. If there is anything you can teach me, you can contact me via email. lizwozmain@gmail.com<br>🎈Besides coding, I am interested in programming, data structure, data analysis, and data pipeline design.<br>
 
 
