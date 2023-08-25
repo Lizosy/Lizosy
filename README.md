@@ -2,7 +2,7 @@
 # 💫 About Me:
 Hi, I'm Chatawee Suriwong. But you can call me Rachel.<br>I have just started coding for a while. If there is anything you can teach me, you can contact me via email. lizwozmain@gmail.com<br> I am interested in programming, data structure, data analysis, and data pipeline design.<br>
 
-https://github-stats-alpha.vercel.app/api?username=Lizosy
+https://github-stats-alpha.vercel.app/api?username={Lizosy}
 ## 🌐 Socials:
 [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/SpellSecure1793) 
 
