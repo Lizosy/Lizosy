@@ -1,6 +1,5 @@
 [![Readme Riddle](https://github-readme-riddle.vercel.app/api?type=horizontal&theme=dark)](https://github.com/CodeWhiteWeb/github-readme-riddle)
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)](https://github.com/piyushsuthar/github-readme-quotes)
-# 💫 About Me:
+
 Hi, I'm Chatawee Suriwong. But you can call me Rachel.<br>I have just started coding for a while. If there is anything you can teach me, you can contact me via email. lizwozmain@gmail.com<br> I am interested in programming, data structure, data analysis, and data pipeline design.<br>
 
 https://github-stats-alpha.vercel.app/api?username={Lizosy}
@@ -16,3 +15,27 @@ https://github-stats-alpha.vercel.app/api?username={Lizosy}
 [![](https://visitcount.itsvg.in/api?id=mayko084&icon=9&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+name: GitHub-Profile-3D-Contrib
+
+on:
+  schedule: # 03:00 JST == 18:00 UTC
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
+    steps:
+      - uses: actions/checkout@v3
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A .
+          git commit -m "generated"
+          git push
