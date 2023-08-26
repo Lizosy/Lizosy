@@ -5,7 +5,8 @@
 
 </div>
 
-https://github.com/Lizosy/Lizosy/assets/61643547/0ae70ced-e236-4513-b1f3-94114df49768
+https://github.com/Lizosy/Lizosy/assets/61643547/eaa17231-a944-4fe7-93a1-7c204b1adce6
+
 
 
 <p align="left">Hello World 🌏</p>
