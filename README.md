@@ -8,15 +8,19 @@
 https://github.com/Lizosy/Lizosy/assets/61643547/eaa17231-a944-4fe7-93a1-7c204b1adce6
 
 
+<div align="left">
+  <img alt="Lizosy"  width=500 src="gif/neco-arc-speech-bubble.gif">   
+  <img width="12" />
+  <img width=200 src="gif/87e1f869381fabc67813094221da74e7.jpg"  />
 
+</div>
 <p align="left"> <img alt="Lizosy" src="gif/cute-neko3.gif"> </img> Hello World 🌏  </p>
 <p align=left>
 </img>
 </p>
 
 <p align="left">Hi, I'm Chatawee Suriwong. But you can call me Rachel.<br>I have just started coding for a while. If there is anything you can teach me, you can contact mั email. lizwozmain@gmail.com<br>I am interested in programming, data structure, data analysis, and data pipeline design.</p>
-<img alt="Lizosy"  width=500 src="gif/neco-arc-speech-bubble.gif">
-
+<img alt="Lizosy"  width=500 src="gif/neco-arc-speech-bubble.gif"> 
 
 <h4 align="left"> <img alt="Lizosy" src="gif/neco-arc-anime.gif"> GitHub Trophies 🏆 </h4>
 
