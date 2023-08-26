@@ -15,12 +15,10 @@ https://github.com/Lizosy/Lizosy/assets/61643547/eaa17231-a944-4fe7-93a1-7c204b1
 </p>
 
 <p align="left">Hi, I'm Chatawee Suriwong. But you can call me Rachel.<br>I have just started coding for a while. If there is anything you can teach me, you can contact me via email. lizwozmain@gmail.com<br>I am interested in programming, data structure, data analysis, and data pipeline design.</p>
+<img alt="Lizosy"  width=500 src="gif/neco-arc-speech-bubble.gif">
 
-###
 
 <h4 align="left">🏆 GitHub Trophies</h4>
-
-###
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Lizosy&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
@@ -30,7 +28,6 @@ https://github.com/Lizosy/Lizosy/assets/61643547/eaa17231-a944-4fe7-93a1-7c204b1
 ###
 
 <p align="left"> <img alt="Lizosy"  width=100 src="gif/necoarc-melty-blood.gif"> Now studying🍟🍕 </p>
-###
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
