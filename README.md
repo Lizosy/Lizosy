@@ -15,7 +15,7 @@ https://github.com/Lizosy/Lizosy/assets/61643547/eaa17231-a944-4fe7-93a1-7c204b1
 </img>
 </p>
 
-<p align="left">Hi, I'm Chatawee Suriwong. But you can call me Rachel.<br>I have just started coding for a while. If there is anything you can teach me, you can contact mั email. lizwozmain@gmail.com<br>I am interested in programming, data structure, data analysis, and data pipeline design.</p>
+<p align="left">Hi, I'm Chatawee Suriwong. But you can call me Rachel.<br>I have just started coding for a while. If there is anything you can teach me, you can contact me email. lizwozmain@gmail.com<br>I am interested in programming, data structure, data analysis, and data pipeline design.</p>
 <div align="left">
   <img alt="Lizosy"  width=500 src="gif/neco-arc-speech-bubble.gif">   
   <img width="12" />
