@@ -42,7 +42,7 @@ https://github.com/Lizosy/Lizosy/assets/61643547/eaa17231-a944-4fe7-93a1-7c204b1
   <img src="https://cdn.simpleicons.org/oracle/F80000" height="30" alt="oracle logo"  />
 </div>
 
-###
+
 
 <div align="left">
   <img src="https://img.shields.io/static/v1?message=Lizwozmain@gmail.com&logo=gmail&label=Gmail&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
