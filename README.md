@@ -1,5 +1,5 @@
 <div align="center">
-<img alt="Lizosy" src="gif/neco-arc.gif"> </img>
+<img alt="Lizosy" width=300 src="gif/neco-arc.gif"> </img>
 
 <i>[I Really Love Neco Arc ](https://www.youtube.com/watch?v=n-aL5da34SI)</i>
 
@@ -9,7 +9,7 @@ https://github.com/Lizosy/Lizosy/assets/61643547/eaa17231-a944-4fe7-93a1-7c204b1
 
 
 
-<p align="left"> <img width=1000 src="gifcute-neko3.gif"> Hello World 🌏  </p>
+<p align="left"> <img alt="Lizosy" src="gif/cute-neko3.gif"> </img> Hello World 🌏  </p>
 <p align=left>
 </img>
 </p>
@@ -29,8 +29,7 @@ https://github.com/Lizosy/Lizosy/assets/61643547/eaa17231-a944-4fe7-93a1-7c204b1
 
 ###
 
-<p align="left">Now studying</p>
-
+<p align="left"> <img alt="Lizosy"  width=100 src="gif/necoarc-melty-blood.gif"> Now studying🍟🍕 </p>
 ###
 
 <div align="left">
