@@ -1,3 +1,5 @@
+<img alt="Lizosy" src="banner neko.jpg"> </img>
+
 <div align="center">
 <img alt="Lizosy" width=300 src="gif/neco-arc.gif"> </img>
 
@@ -6,15 +8,17 @@
 </div>
 
 
-
-</div>
-<p align="left"> <img alt="Lizosy" src="gif/cute-neko3.gif"> </img> Hello World 🌏  </p>
+<p align="center">
+  <em> <p align="center"> <img alt="Lizosy" src="gif/cute-neko3.gif"> </img> <b>I'm Chatawee Suriwong.But you can call me Rachel</b>   </p>
 <p align=left>
 </img>
 </p>
 
-<p align="left">Hi, I'm Chatawee Suriwong. But you can call me Rachel.<br>I have just started coding for a while. If there is anything you can teach me, you can contact me email. lizwozmain@gmail.com<br>I am interested in programming, data structure, data analysis, and data pipeline design.</p>
-<div align="left">
+<p align="center">
+  <em>
+  .I have just started coding for a while. If there is anything you can teach me, you can contact me email. lizwozmain@gmail.com<br>I am interested in programming, data structure, data analysis, and data pipeline design. 
+
+  </em>>
   <img alt="Lizosy"  width=500 src="gif/neco-arc-speech-bubble.gif">   
   <img width="12" />
   <img width=200 src="gif/87e1f869381fabc67813094221da74e7.jpg"  />
