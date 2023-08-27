@@ -5,8 +5,6 @@
 
 </div>
 
-https://github.com/Lizosy/Lizosy/assets/61643547/eaa17231-a944-4fe7-93a1-7c204b1adce6
-
 
 
 </div>
@@ -28,6 +26,5 @@ https://github.com/Lizosy/Lizosy/assets/61643547/eaa17231-a944-4fe7-93a1-7c204b1
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Lizosy&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
 </div>
 
-<img alt="Lizosy" width=8000  src="gif/neco-arc (1).gif"> </img>
 ###
 
