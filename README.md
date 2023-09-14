@@ -3,7 +3,7 @@
 
 
 <p align="left"> 
-<b>Hi,<b/> I'm Chatawee Suriwong. But you can call me Rachel.<br>I have just started coding for a while. If there is anything you can teach me, you can contact via email. lizwozmain@gmail.com<br>I am interested in programming, data structure, data analysis, and data pipeline design.</p>
+<b>Hi,<b/> I'm Rachel.<br>I have just started coding for a while. If there is anything you can teach me, you can contact via email. lizwozmain@gmail.com<br>I am interested in programming, data structure, data analysis, and data pipeline design.</p>
 <div align="left">
   <img alt="Lizosy"  width=500 src="gif/neco-arc-speech-bubble.gif">   
   <img width="12" />
