@@ -9,7 +9,7 @@
   <img width="12" />
   <img width=200 src="gif/87e1f869381fabc67813094221da74e7.jpg"  />
 
-<img width=500 src="gif/1c84d884787d3a20aebe7a290eb092b9.jpg"  />
+
 <h4 align="left"> <img alt="Lizosy" src="gif/neco-arc-anime.gif"> GitHub Trophies 🏆 </h4>
 
 <div align="center">
