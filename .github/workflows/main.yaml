@@ -1,27 +1,22 @@
 name: Metrics
 on:
-  # Schedule updates (each hour)
+  # Schedule daily updates
   schedule: [{cron: "0 16 * * *"}]
-  # Lines below let you run workflow manually and on each commit (optional)
+  # (optional) Run workflow manually
   workflow_dispatch:
+  # (optional) Run workflow when pushing on master/main
   push: {branches: ["main"]}
 jobs:
-  metrics-main:
+  github-metrics:
     runs-on: ubuntu-latest
+    environment: 
+      name: production
+    permissions:
+      contents: write
     steps:
-      # See action.yml for all options
       - uses: lowlighter/metrics@latest
         with:
-          # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
-          
-          user: Lizosy
-          base: header, activity, community, repositories, metadata
-          filename: metrics-main.svg
-          template: classic
-          base_indepth: yes
-          base_hireable: yes
-          
   metrics-lang-noable:
     runs-on: ubuntu-latest
     steps:
@@ -46,10 +41,3 @@ jobs:
           plugin_notable_repositories: yes
           plugin_notable_indepth: yes
           plugin_notable_self: no
-
-          user: Lizosy
-          base: ''
-          filename: metrics-lang-notable.svg
-          template: classic
-          repositories: 240
-          repositories_batch: 40
