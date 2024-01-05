@@ -1,22 +1,26 @@
 name: Metrics
 on:
-  # Schedule daily updates
+  # Schedule updates (each hour)
   schedule: [{cron: "0 16 * * *"}]
-  # (optional) Run workflow manually
+  # Lines below let you run workflow manually and on each commit (optional)
   workflow_dispatch:
-  # (optional) Run workflow when pushing on master/main
-  push: {branches: ["main"]}
+  push: {branches: ["master"]}
 jobs:
-  github-metrics:
+  metrics-main:
     runs-on: ubuntu-latest
-    environment: 
-      name: production
-    permissions:
-      contents: write
     steps:
+      # See action.yml for all options
       - uses: lowlighter/metrics@latest
         with:
+          # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
+          
+          user: Lizosy
+          base: header, activity, community, repositories, metadata
+          filename: metrics-main.svg
+          template: classic
+          base_indepth: yes
+          base_hireable: yes
           
   metrics-lang-noable:
     runs-on: ubuntu-latest
