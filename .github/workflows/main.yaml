@@ -17,8 +17,8 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-  
-metrics-lang-noable:
+          
+  metrics-lang-noable:
     runs-on: ubuntu-latest
     steps:
       # See action.yml for all options
@@ -43,7 +43,7 @@ metrics-lang-noable:
           plugin_notable_indepth: yes
           plugin_notable_self: no
 
-          user: yunwei37
+          user: Lizosy
           base: ''
           filename: metrics-lang-notable.svg
           template: classic
