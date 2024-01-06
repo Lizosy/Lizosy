@@ -1,56 +1,45 @@
 name: Metrics
 on:
   # Schedule daily updates
-  schedule: [{cron: "0 * * * *"}]
+  schedule: [{cron: "0 16 * * *"}]
   # (optional) Run workflow manually
   workflow_dispatch:
   # (optional) Run workflow when pushing on master/main
   push: {branches: ["main"]}
 jobs:
   github-metrics:
-    permissions: write-all
     runs-on: ubuntu-latest
+    environment: 
+      name: production
+    permissions:
+      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Your GitHub token
-          token: ${{ secrets.METRICS_TOKENS }}
-          # GITHUB_TOKEN is a special auto-generated token restricted to current repository, which is used to push files in it
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-
-          # Options
-          user: Lizosy
-          template: classic
-          base: header, activity, community, repositories, metadata
-          config_animations: yes
-          config_timezone: Asia/Bangkok
-          plugin_languages: yes
-          plugin_languages_ignored: CMake, HTML, CSS, Makefile, Jupyter Notebook
-          plugin_habits: yes
-          plugin_habits_from: 250
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-  
-  metrics-2:
-    runs-on: ubuntu-latest
-    steps:
-      # See action.yml for all options
-      - uses: lowlighter/metrics@latest
-        with:
-          # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
           
+          user: Lizosy
+          base: header, activity, community, repositories, metadata
+          filename: metrics-main.svg
+          template: classic
+          base_indepth: yes
+          base_hireable: yes
+          
+  metrics-plugin-activity:
+    runs-on: ubuntu-latest
+    environment: 
+      name: production
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          user: Lizosy
+          template: classic
+          filename: metrics.plugin.activity.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+
           plugin_activity: yes
           plugin_activity_limit: 5
           plugin_activity_days: 0
           plugin_activity_filter: issue, pr, release, fork, review, ref/create
-
-
-          user: Lizosy
-          base: ''
-          filename: metrics-2.svg
-          template: classic
-          repositories: 240
-          repositories_batch: 40
-  
