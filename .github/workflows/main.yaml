@@ -34,10 +34,16 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.activity.svg
           token: ${{ secrets.METRICS_TOKEN }}
 
           plugin_activity: yes
           plugin_activity_limit: 5
           plugin_activity_days: 0
           plugin_activity_filter: push, issue, pr, release, fork, review, ref/create, star, public
+          
+          user: Lizosy
+          base: ''
+          filename: metrics-plugin-activity.svg
+          template: classic
+          repositories: 240
+          repositories_batch: 40
