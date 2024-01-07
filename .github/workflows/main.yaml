@@ -34,8 +34,6 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          user: Lizosy
-          template: classic
           filename: metrics.plugin.activity.svg
           token: ${{ secrets.METRICS_TOKEN }}
 
