@@ -5,9 +5,9 @@
  
 ---
 
-<a href="https://github.com/yunwei37">
+<a href="https://github.com/Lizosy">
   <img align="center" width="49%" src="./metrics-main.svg" />
 </a>
-<a href="https://github.com/yunwei37">
+<a href="https://github.com/Lizosy">
   <img align="center" width="49%" src="./metrics-plugin-activity.svg" />
 </a>
