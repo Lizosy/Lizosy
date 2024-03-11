@@ -42,7 +42,6 @@ jobs:
           plugin_activity_filter: push, issue, pr, release, fork, review, ref/create, star, public
           
           user: Lizosy
-          base: ''
           filename: metrics-plugin-activity.svg
           template: classic
           repositories: 240
