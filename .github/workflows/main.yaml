@@ -25,37 +25,3 @@ jobs:
           base_indepth: yes
           base_hireable: yes
           
-  metrics-plugin-activity:
-    runs-on: ubuntu-latest
-    environment: 
-      name: production
-    permissions:
-      contents: write
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 0
-          plugin_activity_filter: push, issue, pr, release, fork, review, ref/create, star, public
-          
-          user: Lizosy
-          filename: metrics-plugin-activity.svg
-          template: classic
-          repositories: 240
-          repositories_batch: 40
-          
-  metrics-plugin-isocalendar:
-    runs-on: ubuntu-latest
-    environment: 
-      name: production
-    permissions:
-      contents: write
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
