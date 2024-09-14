@@ -1,4 +1,4 @@
- <p align="center">Learning never exhausts the mind.</p>
+ <p align="center">Not my cheese.</p>
  
 
 
