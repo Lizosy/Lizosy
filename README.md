@@ -2,5 +2,3 @@
  
 
 
-
-![Activity Metrics](https://github.com/Lizosy/Lizosy/blob/main/metrics-plugin-activity.svg)
